@@ -52,3 +52,5 @@ pytest tests/test_assignment.py
 
 - `test_word_frequency_count`:
   Downloads the content of the Opinión articles, extracts text, and calculates the frequency of repeated words across articles.
+
+### Title and content printed in both spanish and english will be shown in annotation as info.
