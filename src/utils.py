@@ -55,7 +55,6 @@ def translate_text(text, src="es", dest="en"):
 def annotate(driver, message, level="info"):
     """
     Send annotations to BrowserStack session.
-    Safely escapes message and level using json.dumps.
     """
     payload = {
         "action": "annotate",
