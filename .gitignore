@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Ignore .env files
+.env
+.env.*
+.envrc
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Logs and screenshots
+*.log
+automation.log
+screenshots/
+
+# Selenium WebDriver logs or downloaded drivers (if any)
+chromedriver
+geckodriver
+
+# Test output
+htmlcov/
+.coverage
+.pytest_cache/
+.cache/
+.junit.xml
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Images
+images/
+
+# Python backup files
+*.bak
+*.swp
+*.swo
