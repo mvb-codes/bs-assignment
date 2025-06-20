@@ -36,7 +36,7 @@ BROWSERSTACK_ACCESS_KEY=your_access_key
 To run the full test suite:
 
 ```bash
-browserstack-sdk tests/test_assignment.py
+browserstack-sdk pytest tests/test_assignment.py
 ```
 
 ## Test Cases Explained
