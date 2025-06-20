@@ -82,11 +82,11 @@ class OpinionPage:
                                 with open(f"images/article_{i + 1}.jpg", "wb") as f:
                                     f.write(response.content)
 
-                    annotate(self.driver,f"\n[Article {i + 1}]")
-                    annotate(self.driver,f"Title (ES): {title}")
-                    annotate(self.driver,f"Title (EN): {translated}")
-                    annotate(self.driver,f"Content: {content[:200]}...")
-                    annotate(self.driver,"Image saved" if img_el else "No image found")
+                    annotate(self.driver, f"\n[Article {i + 1}]\n"
+                        f"Title (ES): {title}\n"
+                        f"Title (EN): {translated}\n"
+                        f"Content: {content[:200]}...\n"
+                        f"{'Image saved' if img_el else 'No image found'}")
 
                 except Exception as e:
                     annotate(self.driver,f"Article {i + 1} failed: {e}", "failed")
